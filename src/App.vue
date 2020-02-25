@@ -1,5 +1,16 @@
 <template>
-  <div id="app">
+  <div class="min-h-screen bg-gray-800 text-white">
+    <Navbar />
     <router-view />
   </div>
 </template>
+
+<script>
+import Navbar from './components/Navbar'
+export default {
+  name: 'App',
+  components: {
+    Navbar
+  }
+}
+</script>
