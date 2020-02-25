@@ -44,6 +44,13 @@ export default {
     user() {
       return this.$store.getters.getUser
     }
+  },
+  methods: {
+    logout() {
+      this.$firebase.auth().signOut()
+      this.$store.dispatch('setUser', '')
+      this.$router.push('/')
+    }
   }
 }
 </script>
