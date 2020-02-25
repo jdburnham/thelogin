@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>Hold Fast Hope</h1>
-    <h3>Thrice</h3>
-    <p>
+  <div class="w-10/12 mx-auto mt-8">
+    <h1 class="text-blue-500 font-semibold text-6xl">Hold Fast Hope</h1>
+    <h3 class="text-blue-500 font-hairline text-4xl">Thrice</h3>
+    <p class="text-lg tracking-wider leading-loose">
       How can you be sleeping, waves like weapons crash O'er us, cry for mercy
       and hold fast hope Who of us is cursed, or do we have to ask Search your
       souls and hold fast If no one speaks a word, then let the lots be cast
